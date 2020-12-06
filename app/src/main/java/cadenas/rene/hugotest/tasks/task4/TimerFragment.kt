@@ -87,7 +87,10 @@ class TimerFragment : Fragment() {
                 startTimer()
             }
         }
-        buttonRestart.setOnClickListener { startTimer() }
+        buttonRestart.setOnClickListener {
+            current = 0
+            startTimer()
+        }
     }
 
     /**
