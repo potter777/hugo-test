@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Hugo Test</string>
+    <string name="hello_message">¡Hola!</string>
+    <string name="introduction_message">Acá encontrarás los ejercicios solicitados</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="task_1_title">Counter</string>
+    <string name="task_1_challenge">Understanding the basic ideas of a language/toolkit.</string>
+    <string name="task_1_summary">The task is to build a frame containing a label or read-only textfield T and a button B. Initially, the value in T is “0” and each click of B increases the value in T by one.</string>
+
+    <string name="task_2_title">Temperature Converter</string>
+    <string name="task_2_challenge">Understanding the basic ideas of a language/toolkit.</string>
+    <string name="task_2_summary">he task is to build a frame containing two textfields TC and TF representing the temperature in Celsius and Fahrenheit, respectively. Initially, both TC and TF are empty</string>
+
+    <string name="task_3_title">Flight Booker</string>
+    <string name="task_3_challenge">Constraints</string>
+    <string name="task_3_summary">he task is to build a frame containing a combobox C with the two options “one-way flight” and “return flight”, two textfields T1 and T2 representing the start and return date, respectively, and a button B for submitting the selected flight. T2 is enabled iff C’s value is “return flight”. When C has the value “return flight” and T2’s date is strictly before T1’s then B is disabled. When a non-disabled textfield T has an ill-formatted date then T is colored red and B is disabled. When clicking B a message is displayed informing the user of his selection (e.g. “You have booked a one-way flight on 04.04.2014.”). Initially, C has the value “one-way flight” and T1 as well as T2 have the same (arbitrary) date (it is implied that T2 is disabled).</string>
+
+    <string name="task_4_title">Timer</string>
+    <string name="task_4_challenge">concurrency, competing user/signal interactions, responsiveness.</string>
+    <string name="task_4_summary">The task is to build a frame containing a gauge G for the elapsed time e, a label which shows the elapsed time as a numerical value, a slider S by which the duration d of the timer can be adjusted while the timer is running and a reset button R. Adjusting S must immediately reflect on d and not only when S is released. It follows that while moving S the filled amount of G will (usually) change immediately. When e ≥ d is true then the timer stops (and G will be full). If, thereafter, d is increased such that d > e will be true then the timer restarts to tick until e ≥ d is true again. Clicking R will reset e to zero.</string>
+
+    <string name="task_5_title">CRUD</string>
+    <string name="task_5_challenge">separating the domain and presentation logic, managing mutation, building a non-trivial layout.</string>
+    <string name="task_5_summary">The task is to build a frame containing the following elements: a textfield Tprefix, a pair of textfields Tname and Tsurname, a listbox L, buttons BC, BU and BD and the three labels as seen in the screenshot. L presents a view of the data in the database that consists of a list of names. At most one entry can be selected in L at a time</string>
+
+    <string name="challenge">Challenge</string>
+    <string name="summary">Summary</string>
+    <string name="start">Start</string>
+    <string name="count">Count</string>
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="book">Book</string>
+    <string name="create_new_user">Create new user</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
+
+</resources>
